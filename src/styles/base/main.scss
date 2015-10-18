@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,100);
+body {
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+	canvas {
+		margin: 0;
+		padding: 0;
+		//overflow
+	}
+	.button {
+		padding: 5px 10px;
+		margin: 0 5px;
+		background: #ccc;
+	}
+	.pressed {
+		background: red;
+		font-weight: bold;
+	}
+}
